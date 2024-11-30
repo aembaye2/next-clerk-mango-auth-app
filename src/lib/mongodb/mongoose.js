@@ -12,7 +12,7 @@ export const connect = async () => {
 
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
-      dbName: "next-clerk-mangodb-auth-proj",
+      dbName: "next-clerk-mango-auth-proj",
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
